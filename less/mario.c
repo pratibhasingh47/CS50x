@@ -5,7 +5,7 @@ int main(){
 	int n;
 	do
 	{
-	    n = get_int("Size :");
+		n = get_int("Size :");
 	}while(n<=0 || n>8);
 
 	for (int i = 1; i<=n; i++){
