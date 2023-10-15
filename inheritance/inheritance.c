@@ -38,8 +38,6 @@ int main(void)
     // Free memory
     free_family(p);
 }
-
-
 // Create a new individual with `generations`
 person *create_family(int generations)
 {
