@@ -25,8 +25,7 @@ int main(void)
 {
     // Seed random number generator
     srand(time(0));
-
-
+    
     // Create a new family with three generations
     person *p = create_family(GENERATIONS);
 
