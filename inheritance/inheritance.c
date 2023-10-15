@@ -139,6 +139,7 @@ void print_family(person *p, int generation)
     print_family(p->parents[1], generation + 1);
 }
 
+
 // Randomly chooses a blood type allele.
 
 char random_allele()
