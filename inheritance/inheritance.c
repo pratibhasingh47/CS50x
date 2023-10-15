@@ -30,7 +30,6 @@ int main(void)
     // Create a new family with three generations
     person *p = create_family(GENERATIONS);
 
-
     // Print family tree of blood types
     print_family(p, 0);
 
