@@ -25,7 +25,7 @@ int main(void)
 {
     // Seed random number generator
     srand(time(0));
-    
+
     // Create a new family with three generations
     person *p = create_family(GENERATIONS);
 
@@ -59,8 +59,6 @@ person *create_family(int generations)
         p->alleles[1] = parent1->alleles[rand() % 2];
 
     }
-
-
     // If there are no generations left to create
     else
     {
@@ -73,7 +71,6 @@ person *create_family(int generations)
         p->alleles[1] = random_allele();
 
     }
-
     // TODO: Return newly created person
     return p;
 }
