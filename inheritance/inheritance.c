@@ -34,7 +34,6 @@ int main(void)
     // Print family tree of blood types
     print_family(p, 0);
 
-
     // Free memory
     free_family(p);
 }
