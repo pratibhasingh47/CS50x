@@ -36,7 +36,6 @@ int main(int argc, char *argv[])
     int16_t buffer;
 
     // TODO: Copy header from input file to output file
-
     fread(header,HEADER_SIZE,1,input);
     fwrite(header,HEADER_SIZE,1,output);
     // TODO: Read samples from input file and write updated data to output file
