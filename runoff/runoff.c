@@ -10,7 +10,6 @@
 int preferences[MAX_VOTERS][MAX_CANDIDATES];
 
 // Candidates have name, vote count, eliminated status
-
 typedef struct
 {
     string name;
@@ -23,7 +22,6 @@ candidate;
 candidate candidates[MAX_CANDIDATES];
 
 // Numbers of voters and candidates
-
 int voter_count;
 int candidate_count;
 
@@ -86,7 +84,6 @@ int main(int argc, string argv[])
     }
 
     // Keep holding runoffs until winner exists
-
     while (true)
     {
         // Calculate votes given remaining candidates
