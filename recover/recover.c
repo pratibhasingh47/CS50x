@@ -25,7 +25,6 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-
     while(1)
     {
         bytes_read = fread(buffer,sizeof(BYTE),512,f);
