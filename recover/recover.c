@@ -5,7 +5,6 @@
 int main(int argc, char *argv[])
 {
 
-    
     typedef uint8_t BYTE;
     BYTE buffer[512];
 
