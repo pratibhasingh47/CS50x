@@ -11,7 +11,6 @@ int count_sentences(string text);
 
 int main(void)
 {
-
     string text;
     int letters, words, sentences, index;
     double L, S;
@@ -38,7 +37,7 @@ int main(void)
 
 int count_letters(string text)
 {
-    
+
     int length, counter = 0;
 
     length = strlen(text);
