@@ -52,7 +52,6 @@ int count_letters(string text)
 
 int count_words(string text)
 {
-
     int length, counter = 0;
 
     length = strlen(text);
