@@ -27,7 +27,6 @@ int candidate_count;
 bool vote(string name);
 void print_winner(void);
 
-
 int main(int argc, string argv[])
 {
     // Check for invalid usage
