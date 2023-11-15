@@ -23,7 +23,6 @@ int main(void)
         start = start + (start/3)-(start/4);
         years++;
     }
-
     // printf("%i\n",start);
     printf("Years: %i\n",years);
 }
