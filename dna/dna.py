@@ -10,7 +10,6 @@ def main():
     strs = []
     profiles = []
 
-
     # TODO: Read database file into a variable
     with open(sys.argv[1], mode='r') as data:
         database = csv.DictReader(data)
