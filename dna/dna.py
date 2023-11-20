@@ -19,7 +19,6 @@ def main():
         for row in database:
             profiles.append(row)
 
-
     # TODO: Read DNA sequence file into a variable
     seq_str_count = dict.fromkeys(strs, 0)
 
