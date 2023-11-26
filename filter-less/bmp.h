@@ -23,7 +23,7 @@ typedef struct
     WORD   bfReserved2;
     DWORD  bfOffBits;
 } __attribute__((__packed__))
-BITMAPFILEHEADER;
+BITMAPFILEHEADER; 
 
 // The BITMAPINFOHEADER structure contains information about the
 // dimensions and color format of a DIB [device-independent bitmap].
