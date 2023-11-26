@@ -27,7 +27,6 @@ typedef struct
 } __attribute__((__packed__))
 BITMAPFILEHEADER;
 
-
 // The BITMAPINFOHEADER structure contains information about the
 // dimensions and color format of a DIB [device-independent bitmap].
 // Adapted from http://msdn.microsoft.com/en-us/library/dd183376(VS.85).aspx.
