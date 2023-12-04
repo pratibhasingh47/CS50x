@@ -6,8 +6,6 @@ def test_calculate_calorie_needs():
     assert calculate_calorie_needs("Female", "sedentary", "45")=="1,800"
     assert calculate_calorie_needs("Female", "Moderately Active", "15")=="2,000"
 
-
-
 def test_find_index():
     assert find_index(["2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18",["19","20"],["21","22","23","24","25"]], "16")==14
     with pytest.raises(ValueError):
