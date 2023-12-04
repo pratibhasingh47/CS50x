@@ -18,6 +18,5 @@ def test_find_index():
 def test_food_calories():
     assert food_calories("calories.csv")["Apple"]==52
 
-
 def test_calorie_needs_data():
     assert calorie_needs_data("calorie-needs.pdf").loc[25, "Male-Active"]=="2,600"
