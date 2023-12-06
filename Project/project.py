@@ -53,6 +53,7 @@ def calculate_calorie_needs(sex, activity, age):
         calorie = calorie_needs.loc[index,choice]
     return calorie
 
+
 def calorie_needs_data(path):
     pdf = pdfplumber.open(path)
     page = pdf.pages[0]
@@ -62,6 +63,7 @@ def calorie_needs_data(path):
 
     #converting the dataframe
     return pd.DataFrame(data2[1:], columns=data2[0])
+
 
 def food_calories(path):
     data=pd.read_csv(path)
