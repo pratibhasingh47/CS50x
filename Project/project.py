@@ -9,7 +9,6 @@ def main():
     calories=food_calories("calories.csv")
 
 
-
     question=input("\nWhat do you want to learn? (1 or 2)\n1- Food Calories (per 100 grams)\n2- Calorie needs per day\n")
 
     if question=="1":
