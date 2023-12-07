@@ -75,6 +75,6 @@ In this project:
         return pd.DataFrame(data2[1:], columns=data2[0])
 
 ## Follow me
-| Social Media | LINK |
-| ------ | ------ |
-| Github | https://github.com/pratibhasingh47 |
+| Social Media | LINK                               |
+| ------------ | ---------------------------------- |
+| Github       | https://github.com/pratibhasingh47 |
