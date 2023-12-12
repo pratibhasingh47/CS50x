@@ -18,5 +18,3 @@ bool unload(void);
 
 #endif // DICTIONARY_H
 
-
-
