@@ -7,7 +7,6 @@ import random
 # Number of simluations to run
 N = 1000
 
-
 def main():
 
     # Ensure correct usage
