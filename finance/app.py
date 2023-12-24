@@ -21,8 +21,6 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 
 
-
-
 # Ensure responses aren't cached
 @app.after_request
 def after_request(response):
