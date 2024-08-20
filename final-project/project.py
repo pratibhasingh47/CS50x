@@ -87,6 +87,3 @@ def find_index(mylist, char):
 
 if __name__ == "__main__":
     main()
-
-
-

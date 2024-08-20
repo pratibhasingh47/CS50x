@@ -18,5 +18,3 @@ def test_food_calories():
 
 def test_calorie_needs_data():
     assert calorie_needs_data("calorie-needs.pdf").loc[25, "Male-Active"]=="2,600"
-
-
